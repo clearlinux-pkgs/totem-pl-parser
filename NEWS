@@ -1,8 +1,18 @@
 New features and significant updates in version...
 
-3.10.8:
+3.26.0:
+- Updated translations
+
+3.25.90:
+- Correct the soname of the install library
+- Fix TOTEM_PL_PARSER_CHECK_VERSION() being missing
+- Fix a small memory leak checking for videosite scripts
+  and document the internal API
+- Remove a number of obsolete files
+
+3.25.3:
+- Use meson instead of autotools as a build tool
 - Use Unicode in translatable strings
-- Autotools build changes
 - Enable videosite support even without quvi
 - Port from GSimpleAsyncResult to GTask
 - Fix shadowed URI variable in PLA parser
