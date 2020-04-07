@@ -4,7 +4,7 @@
 #
 Name     : totem-pl-parser
 Version  : 3.26.5
-Release  : 11
+Release  : 12
 URL      : https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz
 Source0  : https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.5.tar.xz
 Summary  : Totem Playlist Parser library
@@ -85,14 +85,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1584481805
+export SOURCE_DATE_EPOCH=1586244028
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
