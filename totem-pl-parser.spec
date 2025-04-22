@@ -5,7 +5,7 @@
 #
 Name     : totem-pl-parser
 Version  : 3.26.6
-Release  : 15
+Release  : 16
 URL      : https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.6.tar.xz
 Source0  : https://download.gnome.org/sources/totem-pl-parser/3.26/totem-pl-parser-3.26.6.tar.xz
 Summary  : Totem Playlist Parser library
